@@ -2,7 +2,7 @@
  * Define the Course and Assignment concepts using the class notations
  */
 
-//Creates Assignment class
+//creates Assignment class
 class Assignment {
     //defines constructor method with two arguments
     constructor(title, dueDate) {
@@ -18,7 +18,7 @@ class Assignment {
     }
 }
 
-//Creates Course class
+//creates Course class
 class Course {
     //defines constructor method with four arguments
     constructor(courseName, instructor, creditHours, assignments) {
@@ -83,3 +83,4 @@ let c2 = new Course(
 //calls courseInfo method of c1 and c2 instances to display course information
 c1.courseInfo();
 c2.courseInfo();
+
